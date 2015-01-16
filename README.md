@@ -19,3 +19,9 @@ Use bcrypt to secure the passwords.
 Use data mapper and postgres to save the data.
 You don't have to be logged in to see the peeps.
 You only can peep if you are logged in.
+
+###Technology used:
+Sinatra
+Capybara
+PostgreSQL
+Ruby
