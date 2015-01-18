@@ -7,11 +7,10 @@ class User
   has n, :peeps, :through => Resource
 
   property :id, Serial
-  property :email, String, unique: true, message: "This email is already taken"
-  property :username, String, unique: true, message: "This username is already taken"
+  property :email, String, unique: true, message: "This email has already been registered"
+  property :username, String, unique: true, message: "The username is unavailable"
   property :password_digest, Text
   property :password_token_timestamp, Time
-  property :user_name, String, unique: true, message: "This username is already taken"
 
   attr_reader :password
   attr_accessor :password_confirmation
