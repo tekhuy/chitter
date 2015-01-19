@@ -1,0 +1,18 @@
+<% if flash[:errors] && !flash[:errors].empty? %>
+  Sorry, there were the following problems with the form.
+  <ul id="errors">
+    <% flash[:errors].each do |error| %>
+      <li><%= error %></li>
+      <% end %>     
+  </ul>
+<% end %>
+
+<% if flash[:notice] %>
+  <section id="notice">
+    <%= flash[:notice] %>
+  </section>
+  <section id="new-registration">
+    Please go back to registration
+
+  </section>
+<% end %>

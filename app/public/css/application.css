@@ -9,15 +9,15 @@ body {
   color: #384047;
   background-image: url("../images/earth.jpg");
 }
-/*
+
 form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
   background: #f4f7f8;
   border-radius: 8px;
-}*/
-/*
+}
+
 h1 {
   margin: 0 0 30px 0;
   text-align: center;
@@ -119,4 +119,4 @@ h3 {
     max-width: 480px;
   }
 
-}*/
+}
